@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "name": "js-practice",
+  "scripts": {
+    "start": "node app.js",
+    "build": "babel src -d dist",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "jest": "^29.5.0"
+  }
+}
